@@ -20,9 +20,9 @@ if "PINECONE_API_KEY" not in st.session_state:
 if "PINECONE_ENVIRONMENT" not in st.session_state:
     st.session_state["PINECONE_ENVIRONMENT"] = ""
 
-st.set_page_config(page_title="Welcome to ASL", layout="wide")
+st.set_page_config(page_title="Shareholders GPT", layout="wide")
 
-st.title("🤠 Welcome to ASL")
+st.title("🤠 Welcome to SHareholders GPT")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
