@@ -22,7 +22,7 @@ if "PINECONE_ENVIRONMENT" not in st.session_state:
 
 st.set_page_config(page_title="Shareholders GPT", layout="wide")
 
-st.title("🤠 Welcome to SHareholders GPT")
+st.title("🤠 Welcome to Shareholders GPT")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
